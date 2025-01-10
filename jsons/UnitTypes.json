@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+
+    //infantry
+    {
+        "name": "Militia",
+	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]",
+	],
+        "movementType": "Land"
+    },
+    {
+        "name": "Sword Anti Cavalry",
+	"uniques": ["Sword"]
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder Anti Cavalry",
+	"uniques": ["Gunpowder"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Anti Armor",
+	"uniques": ["Gunpowder"],
+        "movementType": "Land"
+    },
+
+    //ranged
+    {
+        "name": "Archery Light",
+	"uniques": ["Archery"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Light",
+	"uniques": ["Ranged Gunpowder"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Emplacement",
+	"uniques": ["Ranged Gunpowder"],
+        "movementType": "Land"
+    },
+
+    //siege
+    {
+        "name": "Siege Nuke",
+	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Sword",
+	"uniques": ["Sword"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Gunpowder",
+	"uniques": ["Gunpowder"],
+        "movementType": "Land"
+    },
+
+    //cav
+    {
+        "name": "Archery Mounted",
+	"uniques": ["Archery", "Mounted"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Mounted",
+	"uniques": ["Ranged Gunpowder", "Mounted"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Armored",
+	"uniques": ["Ranged Gunpowder", "Armored"],
+        "movementType": "Land"
+    },
+    {
+        "name": "GDR",
+        "movementType": "Land"
+    },
+
+    //specialist
+
+    {
+        "name": "Anti Air",
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Defense",
+		"uniques": ["Cannot intercept [non-[Ballistic]] units", "[+5000]% Strength <vs [Ballistic] units>"],
+        "movementType": "Land"
+    },
+    //aircraft
+    {
+        "name": "Air Helicopter",
+        "movementType": "Land",
+        "uniques": ["Aircraft", "Helicopter", "Can pass through impassable tiles"]
+    },
+    {
+        "name": "Air Drone",
+        "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Nuke Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Interceptor",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
+        "movementType": "Air"
+    },
+    {
+        "name": "CAS",
+        "uniques": ["Aircraft"],
+        "movementType": "Air"
+    },
+
+    //helicarrier
+    {
+        "name": "HeliCarrier",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+]
